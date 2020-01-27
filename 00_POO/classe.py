@@ -7,7 +7,6 @@ class Caneta:
         self.carga = carga
         self.tampada = tampada
 
-
     def rabiscar(self, texto):
         if self.tampada:
             print(f'Começou a rabiscar {texto}')
